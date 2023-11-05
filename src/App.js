@@ -1,15 +1,15 @@
-import react from 'react'
+import React from 'react'
 import './App.css';
 import Component from './Component';
+import SimpleState from './SimpleState';
 
 function App() {
-  return (
-    <div classname="App">
+  return (<div className="App">
       <h1>hello welcome to react</h1>
       <button>click me</button>
       <Component comp={"1"}/>
-      <Component comp={"2"}/>
-      <Component comp={"3"}/>
+
+      <SimpleState/>
     </div>
   );
 }
