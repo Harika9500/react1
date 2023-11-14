@@ -3,7 +3,7 @@ import './App.css';
 import Component from './Component';
 
 function SimpleState() {
-  let [b,setB]=useState(23);
+  let [b,setB]=useState(0);
     var a = 23;
   var ClickedFn =()=>{
     console.log("Clicked")
